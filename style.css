@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+main {
+    margin-top: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+section {
+    margin-bottom: 50px;
+}
+section h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+header .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .logo img {
+    width: 34px;
+}
+header .container nav {
+    display: flex;
+    gap: 20px;
+}
+header .container nav a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    position: relative;
+}
+.hero-banner {
+    width: 100%;
+    height: 300px;
+}
+.hero-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.hero-avatar {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+}
+.hero-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.intro {
+    margin-top: 90px;
+}
+.intro-name {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.intro-desc {
+    font-size: 16px;
+    color: #232323;
+    margin-bottom: 20px;
+}
+
+/* About */
+.about {
+    margin-top: 50px;
+}
+.about .about-desc {
+    font-size: 14px;
+    color: #232323;
+    margin-bottom: 20px;
+}
+
+/* Experience */
+.exp-item {
+    display: flex;
+    margin-top: 40px;
+}
+.org-img {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+}
+.org-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.role-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.role-org-name {
+    font-size: 14px;
+    color: #464646;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.role-duration {
+    font-size: 14px;
+    color: #464646;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.role-desc {
+    font-size: 14px;
+    color: #232323;
+    margin-bottom: 5px;
+} 
+.role-desc ul {
+    padding-left: 20px;
+}
+
+/* Education */
+.edu-item {
+    display: flex;
+    margin-top: 40px;
+}
+.edu-img {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+}
+.edu-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.edu-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.edu-org-name {
+    font-size: 14px;
+    color: #464646;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.edu-duration {
+    font-size: 14px;
+    color: #464646;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+/* Contact */
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.contact-details a:hover {
+    color: #686868;
+    text-decoration: underline;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+}
